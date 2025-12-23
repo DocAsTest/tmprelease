@@ -6,6 +6,21 @@
     <artifactId>tmprelease</artifactId>
     <version>2.0.1-SNAPSHOT</version>
 
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/DocAsTest/tmprelease</url>
+        </repository>
+    </distributionManagement>
+    <scm>
+        <connection>scm:git:git://github.com/DocAsTest/tmprelease.git</connection>
+        <developerConnection>scm:git:git://github.com/DocAsTest/tmprelease.git</developerConnection>
+        <url>git@github.com:idhub-io/idhub-api.git</url>
+        <tag>HEAD</tag>
+    </scm>
+
     <dependencies>
 
         <dependency>
