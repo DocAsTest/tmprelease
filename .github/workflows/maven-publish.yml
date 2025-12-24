@@ -34,13 +34,7 @@ jobs:
 
     - name: Build with Maven
       run: |
-        git branch
-        echo Hello > hello.txt
-        git add hello.txt
-        git status
-        git commit -m "Add hello"
-        git push
-        mvn  -B release:prepare release:perform
+        mvn  -B release:prepare release:perform --file pom.xml
         ls target
     #  run: mvn -B package --file pom.xml
       env:
