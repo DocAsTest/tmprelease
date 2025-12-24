@@ -4,7 +4,7 @@
 
     <groupId>com.github.docastest</groupId>
     <artifactId>tmprelease</artifactId>
-    <version>2.0.1</version>
+    <version>2.0.1-SNAPSHOT</version>
 
 
     <distributionManagement>
@@ -18,7 +18,7 @@
         <connection>scm:git:https://github.com/DocAsTest/tmprelease.git</connection>
         <developerConnection>scm:git:https://github.com/DocAsTest/tmprelease.git</developerConnection>
         <url>git@github.com:idhub-io/idhub-api.git</url>
-        <tag>tmprelease-2.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
