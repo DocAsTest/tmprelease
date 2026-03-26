@@ -5,7 +5,7 @@
     <description>Test release</description>
     <groupId>com.github.docastest</groupId>
     <artifactId>tmprelease</artifactId>
-    <version>2.0.3-SNAPSHOT</version>
+    <version>2.0.4-SNAPSHOT</version>
 
 <!--
 https://github.com/marketplace/actions/java-maven-release
@@ -23,11 +23,12 @@ https://www.oxiane.com/github-en-action/
             <url>https://maven.pkg.github.com/DocAsTest/tmprelease</url>
         </repository>
     </distributionManagement>
+
     <scm>
         <connection>scm:git:https://github.com/DocAsTest/tmprelease.git</connection>
         <developerConnection>scm:git:https://github.com/DocAsTest/tmprelease.git</developerConnection>
         <url>git@github.com:DocAsTest/tmprelease.git</url>
-        <tag>tmprelease-2.0.1</tag>
+        <tag>tmprelease-2.0.4</tag>
     </scm>
 
     <dependencies>
