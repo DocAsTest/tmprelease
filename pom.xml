@@ -7,6 +7,14 @@
     <artifactId>tmprelease</artifactId>
     <version>2.0.1-SNAPSHOT</version>
 
+<!--
+https://github.com/marketplace/actions/java-maven-release
+https://github.com/gh-a-sample/github-actions-maven-release-sample
+https://www.oxiane.com/github-en-action/
+-->
+    <properties>
+        <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
+    </properties>
 
     <distributionManagement>
         <repository>
@@ -18,12 +26,11 @@
     <scm>
         <connection>scm:git:https://github.com/DocAsTest/tmprelease.git</connection>
         <developerConnection>scm:git:https://github.com/DocAsTest/tmprelease.git</developerConnection>
-        <url>git@github.com:idhub-io/idhub-api.git</url>
+        <url>git@github.com:DocAsTest/tmprelease.git</url>
         <tag>HEAD</tag>
     </scm>
 
     <dependencies>
-
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
